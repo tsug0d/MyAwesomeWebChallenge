@@ -7,11 +7,11 @@ git clone https://github.com/tsug0d/MyAwesomeWebChallenge.git
 ```
 
 ## Easy
-| ID | Name    | Description                                                       | Install        |
-|----|---------|-------------------------------------------------------------------|----------------|
-| 1  | TSULOTT | Who Wants to Be a Millionaire? Join My LOTT and Win JACKPOTTTT!!! | (To be update) |
-|    |         |                                                                   |                |
-|    |         |                                                                   |                |
+| Name    | Description                                                       | Install                                                | Port |
+|---------|-------------------------------------------------------------------|--------------------------------------------------------|------|
+| TSULOTT | Who Wants to Be a Millionaire? Join My LOTT and Win JACKPOTTTT!!! | cd MyAwesomeWebChallenge/tsulott; docker-compose up -d | 8001 |
+|         |                                                                   |                                                        |      |
+|         |                                                                   |                                                        |      |
 
 ## Medium
 | Name          | Description                                                                                                 | Install                                                      | Port |
