@@ -1,6 +1,11 @@
 # MyAwesomeWebChallenge
 Collection of my ctf web challenge in any level
 
+Very first command: 
+```css
+git clone https://github.com/tsug0d/MyAwesomeWebChallenge.git
+```
+
 ## Easy
 | ID | Name    | Description                                                       | Install        |
 |----|---------|-------------------------------------------------------------------|----------------|
@@ -9,13 +14,11 @@ Collection of my ctf web challenge in any level
 |    |         |                                                                   |                |
 
 ## Medium
-| ID | Name          | Description                                                                                                 | Install        |
-|----|---------------|-------------------------------------------------------------------------------------------------------------|----------------|
-| 1  | TooManyCrypto | My kawaii little sister just create it for me... She tell me there is a secret inside. I wonder what it is? | (To be update) |
-|    |               |                                                                                                             |                |
-|    |               |                                                                                                             |                |
-
-
+| Name          | Description                                                                                                 | Install                                                      | Port |
+|---------------|-------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|------|
+| TooManyCrypto | My kawaii little sister just create it for me... She tell me there is a secret inside. I wonder what it is? | cd MyAwesomeWebChallenge/toomanycrypto; docker-compose up -d | 9001 |
+|               |                                                                                                             |                                                              |      |
+|               |                                                                                                             |                                                              |      |
 ## Hard
 | ID | Name      | Description                                                                                                          | Install        |
 |----|-----------|----------------------------------------------------------------------------------------------------------------------|----------------|
