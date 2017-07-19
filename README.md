@@ -1,5 +1,5 @@
 # MyAwesomeWebChallenge
-Collection of my ctf web challenge in any level
+## Collection of my ctf web challenge in any level
 
 Very first command: 
 ```css
@@ -18,17 +18,17 @@ docker-compose up -d
 
 Access challenge via `ip:port`
 
-## Easy
+### Easy
 | Name    | Description                                                       | Port |
 |---------|-------------------------------------------------------------------|------|
 | TSULOTT | Who Wants to Be a Millionaire? Join My LOTT and Win JACKPOTTTT!!! | 8001 |
 
-## Medium
+### Medium
 | Name          | Description                                                                                                 | Port |
 |---------------|-------------------------------------------------------------------------------------------------------------|------|
 | TooManyCrypto | My kawaii little sister just create it for me... She tell me there is a secret inside. I wonder what it is? | 9001 |
 
-## Hard
+### Hard
 | Name      | Description                                                                                                          | Port |
 |-----------|----------------------------------------------------------------------------------------------------------------------|------|
 | LonelyBoy | I saw the website of a lonely boy out there, it looks like he wants to be cheered up, can you help him? Flag is in / | 7001 |
