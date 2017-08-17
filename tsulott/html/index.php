@@ -97,6 +97,7 @@ if (isset($_GET['gen_code']) && !empty($_GET['gen_code']))
       <button type="submit" name="btn-submit" value="go">send</button>
 </form>
 </center>
+<!-- debug: GET is_debug=1 -->
 <?php
 if(isset($_GET['is_debug']) && $_GET['is_debug']==='1')
 {
