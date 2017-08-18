@@ -1,6 +1,6 @@
 # My Awesome Web Challenge (MAWC)
 
-## Any problem please contact to my email: <mailto:tsublogs@gmail.com>
+## Any problem please contact to my email: <tsublogs@gmail.com>
 
 ### Collection of my Capture-The-Flag Web challenge in any level
 Very first command: 
