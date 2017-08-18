@@ -1,7 +1,8 @@
 # My Awesome Web Challenge (MAWC)
-## Any problem please contact to my email: tsublogs@gmail.com
 
-### Collection of my ctf web challenge in any level
+## Any problem please contact to my email: <mailto:tsublogs@gmail.com>
+
+### Collection of my Capture-The-Flag Web challenge in any level
 Very first command: 
 ```css
 git clone https://github.com/tsug0d/MyAwesomeWebChallenge.git
