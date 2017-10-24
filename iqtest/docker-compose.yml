@@ -3,7 +3,7 @@ services:
   php:
     build: ./php
     ports:
-      - '8001:80'
+      - '8002:80'
     volumes:
       - ./html:/var/www/html
  
