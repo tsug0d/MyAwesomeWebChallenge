@@ -4,22 +4,22 @@
   <img width="460" height="300" src="https://i.imgur.com/jS7oP7c.gif">
 </p>
 
-Very first command: 
+🕵🏾 Very first command: 
 ```css
 git clone https://github.com/tsug0d/MyAwesomeWebChallenge.git
 ```
 
-To play challenge, go to its directory:
+😎 To play challenge, go to its directory:
 ```css
 cd MyAwesomeWebChallenge/<challenge-name>
 ```
 
-Then:
+🤘 Then:
 ```css
 docker-compose up -d
 ```
 
-Access challenge via `ip:port`
+Access challenge via `ip:port` 🏁
 
 ### Easy
 | Name    | Description                                                         | Port |
