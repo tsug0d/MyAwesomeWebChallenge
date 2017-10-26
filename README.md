@@ -2,6 +2,9 @@
 
 ### Collection of my Capture-The-Flag Web challenge in any level
 ![MAWC logo](https://hack4rum.com/GIF/most_irritating_moment.gif)
+<p align="center">
+  <img width="460" height="300" src="https://i.imgur.com/jS7oP7c.gif">
+</p>
 
 Very first command: 
 ```css
