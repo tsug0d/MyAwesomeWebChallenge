@@ -1,5 +1,5 @@
 <?php
-
+//$flag=$secret_salt;
 include('./secret.php');
 
 if(empty($_SESSION["form_token"]))
