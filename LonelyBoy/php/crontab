@@ -1,0 +1,1 @@
+*/20 * * * * bash /var/www/crondel.sh

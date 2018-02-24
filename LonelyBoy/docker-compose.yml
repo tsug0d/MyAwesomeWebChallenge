@@ -1,0 +1,45 @@
+version: '2'
+services:
+ php7:
+  image: app
+  ports:
+  - '7001:7001'
+  command: bash -c "service php7.1-fpm start && service cron start && /usr/sbin/apache2ctl -D FOREGROUND"
+  networks:
+   vpcbr:
+    ipv4_address: 10.0.0.2  
+  links:
+  - mysql
+  depends_on:
+  - migration
+ migration: 
+  build: ./php
+  image: app
+  command: bash -c "/var/www/cron350.sh"
+  volumes: 
+  - ./php/hosts:/etc/hosts
+  networks:
+   vpcbr:
+    ipv4_address: 10.0.0.3
+  links:
+  - mysql
+  depends_on:
+  - mysql
+ mysql:
+  image: mysql
+  ports:
+  - "3306:3306"
+  environment:
+  - MYSQL_ROOT_PASSWORD=111111
+  volumes: 
+  - ./database:/docker-entrypoint-initdb.d
+  networks:
+   vpcbr:
+    ipv4_address: 10.0.0.4
+networks:
+  vpcbr:
+    driver: bridge
+    ipam:
+     config:
+       - subnet: 10.0.0.0/16
+         gateway: 10.0.0.1
