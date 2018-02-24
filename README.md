@@ -22,6 +22,7 @@ docker-compose up -d
 Wait a bit, access challenge via `ip:port` 🏁
 
 <img src="https://i.imgur.com/p5WFB8A.png">
+
 ### Easy
 | Name       | Description                                                         | Port |
 |------------|---------------------------------------------------------------------|------|
@@ -29,10 +30,14 @@ Wait a bit, access challenge via `ip:port` 🏁
 | IQTest     | The Best IQ Testing page ever was released !!! Come and join us !!! | 8002 |
 | FreeToFlag | We are giving flag, but we don't have money...                      | 8003 |
 
+<img src="https://i.imgur.com/jiFKi3q.png">
+
 ### Medium
 | Name          | Description                                                                                                 | Port |
 |---------------|-------------------------------------------------------------------------------------------------------------|------|
 | TooManyCrypto | My kawaii little sister just create it for me... She tell me there is a secret inside. I wonder what it is? | 9001 |
+
+<img src="https://i.imgur.com/XEuOoul.png">
 
 ### Hard
 | Name           | Description                                                                                                                | Port |
