@@ -21,6 +21,7 @@ docker-compose up -d
 
 Wait a bit, access challenge via `ip:port` 🏁
 
+<img src="https://i.imgur.com/p5WFB8A.png">
 ### Easy
 | Name       | Description                                                         | Port |
 |------------|---------------------------------------------------------------------|------|
