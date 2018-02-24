@@ -19,7 +19,7 @@ cd MyAwesomeWebChallenge/<challenge-name>
 docker-compose up -d
 ```
 
-Access challenge via `ip:port` 🏁
+Wait a bit, access challenge via `ip:port` 🏁
 
 ### Easy
 | Name       | Description                                                         | Port |
