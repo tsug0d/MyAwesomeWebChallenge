@@ -1,7 +1,7 @@
 # My Awesome Web Challenge (MAWC)
 
 <p align="center">
-  <img width="300" height="300" src="https://i.imgur.com/HT1TQFO.gif">
+  <img src="https://i.imgur.com/HT1TQFO.gif">
 </p>
 
 🕵🏾 Very first command: 
