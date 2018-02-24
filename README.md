@@ -22,10 +22,11 @@ docker-compose up -d
 Access challenge via `ip:port` 🏁
 
 ### Easy
-| Name    | Description                                                         | Port |
-|---------|---------------------------------------------------------------------|------|
-| TSULOTT | Who Wants to Be a Millionaire? Join My LOTT and Win JACKPOTTTT!!!   | 8001 |
-| IQTest  | The Best IQ Testing page ever was released !!! Come and join us !!! | 8002 |
+| Name       | Description                                                         | Port |
+|------------|---------------------------------------------------------------------|------|
+| TSULOTT    | Who Wants to Be a Millionaire? Join My LOTT and Win JACKPOTTTT!!!   | 8001 |
+| IQTest     | The Best IQ Testing page ever was released !!! Come and join us !!! | 8002 |
+| FreeToFlag | We are giving flag, but we don't have money...                      | 8003 |
 
 ### Medium
 | Name          | Description                                                                                                 | Port |
@@ -39,4 +40,4 @@ Access challenge via `ip:port` 🏁
 | SQLiNinjaClass | Oops, Dash like the wind, Impossible to find, look like the class of Ninja Sensei has began, come and learn some JUTSU !!! | 7002 |
 
 
-### Any problems please contact to my email: <tsublogs@gmail.com>
+#### Any problems please contact to my email: <tsublogs@gmail.com>
