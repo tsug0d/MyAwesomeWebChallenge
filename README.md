@@ -48,4 +48,4 @@ Wait a bit, access challenge via `ip:port` 🏁
 | SQLiNinjaClass | Oops, Dash like the wind, Impossible to find, look like the class of Ninja Sensei has began, come and learn some JUTSU !!! | 7002 |
 
 
-#### Any problems please contact to my email: <tsublogs@gmail.com>
+#### Any problems please contact me via email: <tsublogs@gmail.com>
