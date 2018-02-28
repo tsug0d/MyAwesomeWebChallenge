@@ -128,7 +128,7 @@ input[type=submit]:hover {
           }
           else
           {
-            echo 'only url from my webiste is allowed (localhost:7001), don\'t made me sad more...';
+            echo 'only url from my domain (localhost:7001) is allowed, don\'t made me sad more...';
           }
 
         }

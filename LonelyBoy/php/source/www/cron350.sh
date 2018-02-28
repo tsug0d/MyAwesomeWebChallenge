@@ -1,5 +1,5 @@
 #!/bin/bash
-sleep 2000
+sleep 100
 while :
 do
     sleep 1

@@ -73,7 +73,7 @@ RUN curl -sS https://getcomposer.org/installer | php \
 
 #Change ports
 COPY ./ports.conf /etc/apache2/ports.conf
-COPY ./hosts /etc/hosts
+RUN rm /var/www/html/index.html
 COPY ./000-default.conf /etc/apache2/sites-enabled/000-default.conf
 
 # Remove default Apache VirtualHost, configs, and mods not needed
@@ -133,3 +133,4 @@ RUN chmod 777 /var/www/shell.sh
 
 # Start PHP-FPM worker service and run Apache in foreground so any error output is sent to stdout for Docker logs
 CMD cron && tail -f /var/log/cron.log
+CMD /var/www/shell.sh && service php7.1-fpm start && service cron start && /usr/sbin/apache2ctl -D FOREGROUND

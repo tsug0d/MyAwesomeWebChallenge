@@ -31,7 +31,7 @@ if (!empty($link))
 }
 
 //then delete
-//mysqli_query($conn,"DELETE FROM saved_link WHERE id=$id");
+mysqli_query($conn,"DELETE FROM saved_link WHERE id=$id");
 
 /*
 CREATE TABLE saved_link (
