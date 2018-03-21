@@ -3,7 +3,9 @@
 <p align="center">
   <img src="https://i.imgur.com/HT1TQFO.gif">
 </p>
-#### Installation
+
+## Installation
+
 🕵🏾 Very first command: 
 ```css
 git clone https://github.com/tsug0d/MyAwesomeWebChallenge.git
@@ -21,7 +23,7 @@ docker-compose up -d
 
 Wait a bit, access challenge via `ip:port` 🏁 
 
-#### Challenge
+## Challenge
 ___
 
 **<p align="center">🎉 Please don't read solution til you can't suffer anymore...🎉</p>**
