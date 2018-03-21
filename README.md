@@ -4,7 +4,6 @@
   <img src="https://i.imgur.com/HT1TQFO.gif">
 </p>
 
-___
 
 ## Installation
 
@@ -24,7 +23,7 @@ docker-compose up -d
 ```
 
 Wait a bit, access challenge via `ip:port` 🏁 
-___
+
 
 
 ## Challenge
