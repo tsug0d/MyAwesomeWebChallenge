@@ -43,10 +43,9 @@ Wait a bit, access challenge via `ip:port` 🏁
 
 
 ### <img src="https://i.imgur.com/XEuOoul.png"> Hard
-| Name           | Description                                                                                                                | Port |
-|----------------|----------------------------------------------------------------------------------------------------------------------------|------|
-| LonelyBoy      | I saw the website of a lonely boy out there, it looks like he wants to be cheered up, can you help him? Flag is in /       | 7001 |
-| SQLiNinjaClass | Oops, Dash like the wind, Impossible to find, look like the class of Ninja Sensei has began, come and learn some JUTSU !!! | 7002 |
-
+| Name           | Description                                                                                                                | Port | WriteUp |
+|----------------|----------------------------------------------------------------------------------------------------------------------------|------|---------|
+| LonelyBoy      | I saw the website of a lonely boy out there, it looks like he wants to be cheered up, can you help him? Flag is in /       | 7001 | [Link](http://tsug0d.com/writeup/lonelyboy.txt)    |
+| SQLiNinjaClass | Oops, Dash like the wind, Impossible to find, look like the class of Ninja Sensei has began, come and learn some JUTSU !!! | 7002 | [Link](http://tsug0d.com/writeup/sqlininjaclass.txt)    |
 
 #### Any problems please contact me via email: <tsublogs@gmail.com>
