@@ -34,9 +34,10 @@ Wait a bit, access challenge via `ip:port` 🏁
 
 
 ### <img src="https://i.imgur.com/jiFKi3q.png"> Medium
-| Name          | Description                                                                                                 | Port |
-|---------------|-------------------------------------------------------------------------------------------------------------|------|
-| TooManyCrypto | My kawaii little sister just create it for me... She tell me there is a secret inside. I wonder what it is? | 9001 |
+| Name          | Description                                                                                                 | Port | WriteUp |
+|---------------|-------------------------------------------------------------------------------------------------------------|------|---------|
+| TooManyCrypto | My kawaii little sister just create it for me... She tell me there is a secret inside. I wonder what it is? | 9001 | [Link](https://tsug0d.com/writeup/toomanycrypto.txt)    |
+| NumberMakeup  | Coloring your number, make its the most style in the world!!!!!                                             | 9002 | [Link](https://tsug0d.com/writeup/numbermakeup.txt)    |
 
 
 
