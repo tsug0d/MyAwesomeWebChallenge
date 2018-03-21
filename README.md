@@ -24,11 +24,11 @@ Wait a bit, access challenge via `ip:port` 🏁
 
 
 ### <img src="https://i.imgur.com/p5WFB8A.png"> Easy
-| Name       | Description                                                         | Port |
-|------------|---------------------------------------------------------------------|------|
-| TSULOTT    | Who Wants to Be a Millionaire? Join My LOTT and Win JACKPOTTTT!!!   | 8001 |
-| IQTest     | The Best IQ Testing page ever was released !!! Come and join us !!! | 8002 |
-| FreeToFlag | We are giving flag, but we don't have money...                      | 8003 |
+| Name       | Description                                                                                       | Port | WriteUp |
+|------------|---------------------------------------------------------------------------------------------------|------|---------|
+| TSULOTT    | Who Wants to Be a Millionaire? Join My LOTT and Win JACKPOTTTT!!!                                 | 8001 | [Link](https://tsug0d.com/writeup/tsulott.txt)    |
+| IQTest     | The Best IQ Testing page ever was released !!! Come and join us !!!                               | 8002 | Link    |
+| FreeToFlag | We are giving flag and money, but we are bankrupt now...so.... maybe next time you can take it... | 8003 | Link    |
 
 
 
