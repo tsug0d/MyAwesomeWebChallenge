@@ -4,6 +4,8 @@
   <img src="https://i.imgur.com/HT1TQFO.gif">
 </p>
 
+___
+
 ## Installation
 
 🕵🏾 Very first command: 
@@ -22,12 +24,13 @@ docker-compose up -d
 ```
 
 Wait a bit, access challenge via `ip:port` 🏁 
+___
+
 
 ## Challenge
 
 
 **<p align="center">🎉 Please don't read solution til you can't suffer anymore...🎉</p>**
-___
 
 
 ### <img src="https://i.imgur.com/p5WFB8A.png"> Easy
