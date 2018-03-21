@@ -38,7 +38,7 @@ Wait a bit, access challenge via `ip:port` 🏁
 |------------|---------------------------------------------------------------------------------------------------|------|---------|
 | TSULOTT    | Who Wants to Be a Millionaire? Join My LOTT and Win JACKPOTTTT!!!                                 | 8001 | [Link](https://tsug0d.com/writeup/tsulott.txt)    |
 | IQTest     | The Best IQ Testing page ever was released !!! Come and join us !!!                               | 8002 | [Link](https://tsug0d.com/writeup/iqtest.txt)    |
-| FreeToFlag | We are giving flag and money, but bankrupted...so.... maybe next time you can take...          | 8003 | [Link](https://tsug0d.com/writeup/freetoflag.txt)    |
+| FreeToFlag | We are giving flag and money, but bankrupted!... so.... maybe next time you can take...           | 8003 | [Link](https://tsug0d.com/writeup/freetoflag.txt)    |
 
 
 
