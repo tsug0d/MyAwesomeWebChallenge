@@ -19,7 +19,8 @@ cd MyAwesomeWebChallenge/<challenge-name>
 docker-compose up -d
 ```
 
-Wait a bit, access challenge via `ip:port` 🏁, please don't read solution til you can't suffer anymore... On the other hand, if you find the way that not appears in those writeup, feel free to send me so i can update it 🎉 
+Wait a bit, access challenge via `ip:port` 🏁 
+Please don't read solution til you can't suffer anymore... On the other hand, if you find the way that not appears in those writeup, feel free to send me so i can update it 🎉 
 
 
 
