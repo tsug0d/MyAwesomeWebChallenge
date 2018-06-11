@@ -1,7 +1,7 @@
 # My Awesome Web Challenge (MAWC)
 
 <p align="center">
-  <img src="https://i.imgur.com/axBjwxB.gif">
+  <img src="https://i.imgur.com/axBjwxB.gif" height="15%" width="15%">
 </p>
 
 
