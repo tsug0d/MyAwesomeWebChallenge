@@ -23,7 +23,8 @@ cd MyAwesomeWebChallenge/<challenge-name>
 
 🤘 Then:
 ```css
-bash chall_config.sh # Don't worry, challenge is setup in docker style!
+bash chall_config.sh 
+# Don't worry, challenge is setup in docker style!
 ```
 
 Wait a bit, access challenge via `ip:port` 🏁 
