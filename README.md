@@ -48,10 +48,11 @@ Wait a bit, access challenge via `ip:port` 🏁
 
 
 ### <img src="https://i.imgur.com/jiFKi3q.png"> Medium
-| Name          | Description                                                                                                 | Port | WriteUp |
-|---------------|-------------------------------------------------------------------------------------------------------------|------|---------|
-| TooManyCrypto | My kawaii little sister just create it for me... She tell me there is a secret inside. I wonder what it is? | 9001 | [Link](https://tsug0d.com/writeup/toomanycrypto.txt)    |
-| NumberMakeup  | Coloring your number, make its the most style in the world!!!!!                                             | 9002 | [Link](https://tsug0d.com/writeup/numbermakeup.txt)    |
+| Name          | Description                                                                                                 | Port | WriteUp                                              |
+|---------------|-------------------------------------------------------------------------------------------------------------|------|------------------------------------------------------|
+| TooManyCrypto | My kawaii little sister just create it for me... She tell me there is a secret inside. I wonder what it is? | 9001 | [Link](https://tsug0d.com/writeup/toomanycrypto.txt) |
+| NumberMakeup  | Coloring your number, make its the most style in the world!!!!!                                             | 9002 | [Link](https://tsug0d.com/writeup/numbermakeup.txt)  |
+| OmegaSector   | Wtf !? I just want to go to OmegaSector but there is weird authentication here, please help me              | 9003 | [Link](https://tsug0d.com/writeup/omegasector.txt)   |
 
 
 
