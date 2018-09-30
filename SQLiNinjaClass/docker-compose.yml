@@ -9,6 +9,8 @@ mysql:
        - MYSQL_DATABASE=sql_courses
        - MYSQL_USER=web400
        - MYSQL_PASSWORD=chin_chan_chon
+     expose:
+       - "3702"
      volumes:
        - ./sql_dump/:/docker-entrypoint-initdb.d
 
