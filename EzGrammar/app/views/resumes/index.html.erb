@@ -1,0 +1,61 @@
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12 text-center">
+      <h1 class="title">Grammar Checker Service</h1>
+    </div>
+    <div class="col-lg-12 form-group text-center">
+      <label for="">Welcome</label>
+      <%= current_user.name %> -
+      <span class="glyphicon glyphicon-user"></span>
+      <%= link_to "Home", users_path, method: :get %> -
+      <span class="glyphicon glyphicon-education"></span>
+      <%= link_to "Check", check_index_path, method: :get %> -
+      <span class="glyphicon glyphicon-upload"></span>
+      <%= link_to "Upload", resumes_path, method: :get %> -
+      <span class="glyphicon glyphicon-off"></span>
+      <%= link_to "Logout", logout_path, method: :delete %>
+    </div>
+  </div>
+<% if !flash[:notice].blank? %>
+   <div class = "alert alert-info">
+      <%= flash[:notice] %>
+   </div>
+<% end %>
+
+<br />
+<center><img src="assets/usagy-upload.gif" width=20% height=20% /></center>
+<center><%= link_to "New File", new_resume_path, class: "btn btn-primary" %></center>
+<br />
+<br />
+
+<table class = "table table-bordered table-striped">
+   <thead>.
+      <tr>
+         <th>Note</th>
+         <th>Action</th>
+         <th>File's Input</th>
+         <th>File's Hash</th>
+      </tr>
+   </thead>
+   
+   <tbody>
+      <% @resumes.each do |resume| %>
+         
+         <tr>
+            <td><%= resume.name %></td>
+            <td>
+               <div class="btn-group">
+                  <%= button_to "Check Grammar", {:controller => "check", :action => "create", :link => Base64.encode64(resume.attachment_url[1..-1]).strip, :signature => resume.hashfile} , :method=>:post, class: "btn btn-success", form: {target: '_blank'}  %> <%= button_to "Destroy This File",  resume, method: :delete, class: "btn btn-danger", confirm: "Are you sure that you wish to delete #{resume.name}?" %>
+               </div>
+            </td>
+            <td><%= Base64.encode64(resume.attachment_url[1..-1]).strip %></td>
+            <td><%= resume.hashfile %></td>
+         </tr>
+         
+      <% end %>
+   </tbody>
+</table>
+<div class="col-lg-12 form-group text-center">
+</div>
+
+
