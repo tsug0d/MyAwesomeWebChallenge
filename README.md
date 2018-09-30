@@ -21,10 +21,9 @@ git clone https://github.com/tsug0d/MyAwesomeWebChallenge.git
 cd MyAwesomeWebChallenge/<challenge-name>
 ```
 
-🤘 Then:
+🤘 Then (challenge setup in docker-style, so it won't harm your system):
 ```css
 bash chall_config.sh 
-# Don't worry, challenge is setup in docker style!
 ```
 
 Wait a bit, access challenge via `ip:port` 🏁 
