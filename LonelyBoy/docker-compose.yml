@@ -7,7 +7,7 @@ php7:
 mysql:
   image: mysql
   ports:
-    - "3306:3306"
+    - "3306:3701"
   environment:
     - MYSQL_ROOT_PASSWORD=111111
   volumes: 
