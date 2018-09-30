@@ -37,7 +37,7 @@ Wait a bit, access challenge via `ip:port` 🏁
 **<p align="center">🎉 Please don't read solution til you can't suffer anymore...🎉</p>**
 
 
-### <img src="https://i.imgur.com/p5WFB8A.png"> Easy
+### <p align="center"><img src="https://i.imgur.com/p5WFB8A.png"><br>**-[ EASY ]-**</p>
 | Name       | Description                                                                                       | Port | WriteUp |
 |------------|---------------------------------------------------------------------------------------------------|------|---------|
 | TSULOTT    | Who Wants to Be a Millionaire? Join My LOTT and Win JACKPOTTTT!!!                                 | 8001 | [Link](https://tsug0d.com/writeup/tsulott.txt)    |
@@ -47,7 +47,7 @@ Wait a bit, access challenge via `ip:port` 🏁
 
 
 
-### <img src="https://i.imgur.com/jiFKi3q.png"> Medium
+### <p align="center"><img src="https://i.imgur.com/jiFKi3q.png"><br>**=[ MEDIUM ]=**</p>
 | Name          | Description                                                                                                 | Port | WriteUp                                              |
 |---------------|-------------------------------------------------------------------------------------------------------------|------|------------------------------------------------------|
 | TooManyCrypto | My kawaii little sister just create it for me... She tell me there is a secret inside. I wonder what it is? | 9001 | [Link](https://tsug0d.com/writeup/toomanycrypto.txt) |
@@ -57,7 +57,7 @@ Wait a bit, access challenge via `ip:port` 🏁
 
 
 
-### <img src="https://i.imgur.com/XEuOoul.png"> Hard
+### <p align="center"><img src="https://i.imgur.com/XEuOoul.png"><br>**-=[ HARD ]=-**</p>
 | Name           | Description                                                                                                                | Port | WriteUp                                              |
 |----------------|----------------------------------------------------------------------------------------------------------------------------|------|------------------------------------------------------|
 | LonelyBoy      | I saw the website of a lonely boy out there, it looks like he wants to be cheered up, can you help him?<br>Flag is in /    | 7001 | [Link](http://tsug0d.com/writeup/lonelyboy.txt)      |
