@@ -4,6 +4,10 @@
   <img src="https://i.imgur.com/axBjwxB.gif" height="20%" width="20%">
 </p>
 
+## Requirement
+
+* docker
+* docker-compose
 
 ## Installation
 
@@ -19,7 +23,7 @@ cd MyAwesomeWebChallenge/<challenge-name>
 
 🤘 Then:
 ```css
-docker-compose up -d
+bash chall_config.sh # Don't worry, challenge is setup in docker style!
 ```
 
 Wait a bit, access challenge via `ip:port` 🏁 
