@@ -1,0 +1,29 @@
+mysql:
+     image: mysql:5.7
+     volumes:
+       - ./db_data:/var/lib/mysql
+     restart: always
+     hostname: mysqlserver
+     environment:
+       - MYSQL_ROOT_PASSWORD=tsu_tsu_tsu_tsu
+       - MYSQL_DATABASE=mapl_story
+       - MYSQL_USER=tsug0d
+       - MYSQL_PASSWORD=chin_chan_chon
+     volumes:
+       - ./sql_dump/:/docker-entrypoint-initdb.d
+     expose:
+       - "3703"
+
+nginx-php-fpm:
+     build: ./php
+     cap_add:
+       - ALL
+     links: 
+       - mysql:mysql
+     ports:
+       - "7003:80"
+       - "4444:443"
+     restart: always
+     environment:
+       - DB_HOST=mysqlserver
+      
