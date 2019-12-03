@@ -1,0 +1,16 @@
+@font-face {
+    font-family: '8BITWONDERNominal';
+        src: url('/assets/fonts/8bit-wonder/810653eb446c8181b8ccc7bb6ad2e28b/47592b1b6b2db3fdf06d3cbbfe462ef4/8BITWONDERNominal.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
+ /* The following rules are deprecated. */ 
+
+@font-face {
+    font-family: '8BIT WONDER';
+        src: url('/assets/fonts/8bit-wonder/810653eb446c8181b8ccc7bb6ad2e28b/47592b1b6b2db3fdf06d3cbbfe462ef4/8BITWONDERNominal.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
