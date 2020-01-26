@@ -1,0 +1,28 @@
+<title>TSULOTT2</title>
+<link href="static/tsu_ui.css" rel="stylesheet">
+<link href="static/tsu_effect.css" rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+<body background="static/background.jpg" class="cenback">
+
+<div id="main">
+<a href="/" class="btn btn-success">Home</a>
+<a href="/ticket" class="btn btn-info">Ticket</a>
+<a href="/lott" class="btn btn-info">Lott</a>
+<a href="/market" class="btn btn-info">Market</a>
+<a href="/reset" class="btn btn-info">Reset</a>
+</div>
+
+<h2 id="intro" class="shadow">Welcome to TSULOTT2, let's play a lucky game~</h2>
+<h2 id="status" class="neon">Amount: ${{money}} </h2>
+
+<div id="items_2"><strong>
+Your Items:<br><br>
+<div>
+{% if tsu != None %} <form action="/" method="POST"><input hidden value="tsu" name="take"><button class="btn btn-default">{{ tsu }}</button></form> {% endif %}
+{% if flower != None %} <form action="/" method="POST"><input hidden value="flower" name="take"><button class="btn btn-default">{{ flower }}</button></form> {% endif %}
+{% if source != None %} <form action="/" method="POST"><input hidden value="source" name="take"><button class="btn btn-default">{{ source }}</button></form> {% endif %}
+{% if flag != None %} <form action="/" method="POST"><input hidden value="flag" name="take"><button class="btn btn-default">{{ flag }}</button></form> {% endif %}
+{% if content != None %} <textarea class="form-control" rows="5" >{{ content }}</textarea>{% endif %}
+</div>
+</strong>
+</div>

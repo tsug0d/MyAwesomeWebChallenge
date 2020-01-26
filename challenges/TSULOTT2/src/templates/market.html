@@ -1,0 +1,97 @@
+<title>TSULOTT2</title>
+<link href="static/tsu_ui.css" rel="stylesheet">
+<link href="static/tsu_effect.css" rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+<body background="static/background.jpg" class="cenback">
+
+<div id="main">
+<a href="/" class="btn btn-info">Home</a>
+<a href="/ticket" class="btn btn-info">Ticket</a>
+<a href="/lott" class="btn btn-info">Lott</a>
+<a href="/market" class="btn btn-success">Market</a>
+<a href="/reset" class="btn btn-info">Reset</a>
+</div>
+
+<h2 id="intro" class="shadow">Hello, wanna buy something? ^.^</h2>
+<h2 id="status" class="neon">Amount: ${{money}} </h2>
+<div id="items">
+<x id="tsu">[ TSU ]</x> <x id="flower">[ FLOWER ]</x> = <x id="source">[ SOURCE ]</x> <x id="flag">[ FLAG ]</x>
+</div>
+<center>
+<div class="bg-primary">
+{% if status!=None %}
+{{status}}
+{% endif %}
+</div>
+</center>
+
+<div class="shop-card" id="shop">
+  <div class="title lead" id="tsu_title">
+    Tsu
+  </div>
+  <div class="slider">
+    <figure data-color="#E24938, #A30F22">
+      <img src="static/tsu.png" id="tsu_image" width=50% />
+    </figure>
+  </div>
+
+  <div class="cta">
+  	<br>
+    <div class="price lead" id="tsu_price">$500</div>
+    <form action="/market" method="POST">
+    	<input hidden name="buy" value="tsu" id="tsu_choice">
+    	<button class="btn btn-success">Buy now<span class="bg"></span></button>
+	</form>
+  </div>
+</div>
+
+<script src="static/jquery.min.js"></script>
+<script>
+function change_flower()
+{
+	document.getElementById("tsu_image").src="static/flower.png"
+	document.getElementById("tsu_title").innerHTML="Flower"
+	document.getElementById("tsu_choice").value="flower"
+	document.getElementById("tsu_price").innerHTML="$500"
+}
+
+function change_source()
+{
+	document.getElementById("tsu_image").src="static/source.png"
+	document.getElementById("tsu_title").innerHTML="Source Code"
+	document.getElementById("tsu_choice").value="source"
+	document.getElementById("tsu_price").innerHTML="$2.000"
+}
+
+function change_flag()
+{
+	document.getElementById("tsu_image").src="static/flag.png"
+	document.getElementById("tsu_title").innerHTML="Flag"
+	document.getElementById("tsu_choice").value="flag"
+	document.getElementById("tsu_price").innerHTML="$1.337.000.000"
+}
+
+function change_tsu()
+{
+	document.getElementById("tsu_image").src="static/tsu.png"
+	document.getElementById("tsu_title").innerHTML="Tsu"
+	document.getElementById("tsu_choice").value="tsu"
+	document.getElementById("tsu_price").innerHTML="$500"
+}
+
+$(document).ready(function(){
+	 $("x#flower").click(function(){
+	 	change_flower();
+	 });
+	 $("x#tsu").click(function(){
+	 	change_tsu();
+	 });
+	 $("x#source").click(function(){
+	 	change_source();
+	 });
+	 $("x#flag").click(function(){
+	 	change_flag();
+	 });
+});
+
+</script>

@@ -1,0 +1,34 @@
+<title>TSULOTT2</title>
+<link href="static/tsu_ui.css" rel="stylesheet">
+<link href="static/tsu_effect.css" rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+<body background="static/background.jpg" class="cenback">
+
+<div id="main">
+<a href="/" class="btn btn-info">Home</a>
+<a href="/ticket" class="btn btn-info">Ticket</a>
+<a href="/lott" class="btn btn-success">Lott</a>
+<a href="/market" class="btn btn-info">Market</a>
+<a href="/reset" class="btn btn-info">Reset</a>
+</div>
+
+<h2 id="intro" class="shadow">Input ticket to lott! winner will get money, loser lost the bet</h1>
+<h2 id="status" class="neon">Amount: ${{money}}</h2>
+<center>
+<div class="bg-primary">
+{% if status!=None %}
+{{status}}
+{% endif %}
+</div>
+
+<div id="main2">
+<form action="/lott" method="POST">
+  <label for="inputlg">Ticket</label><input class="form-control" id="ex3" type="text" name="ticket"><br>
+  <br>
+  <button class="button button1" type="submit" style="vertical-align:middle"><span>submit </span></button>
+</form>
+</div>
+
+
+
+</center>

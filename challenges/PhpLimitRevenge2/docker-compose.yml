@@ -1,0 +1,10 @@
+version: '2'
+services:
+  php:
+    build: ./php
+    ports:
+      - '9006:80'
+    volumes:
+      - ./html:/var/www/html
+      - ./flag:/var/www
+ 

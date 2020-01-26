@@ -1,0 +1,19 @@
+php7:
+    build: ./php
+    ports:
+      - '7001:7001'
+    links:
+      - mysql
+mysql:
+  image: mysql:5.7
+  restart: always
+  hostname: mysqlserver
+  expose:
+    - "3701"
+  environment:
+    - MYSQL_ROOT_PASSWORD=111111
+    - MYSQL_DATABASE=lonelyboy
+    - MYSQL_USER=root
+    - MYSQL_PASSWORD=111111
+  volumes: 
+    - ./database:/docker-entrypoint-initdb.d

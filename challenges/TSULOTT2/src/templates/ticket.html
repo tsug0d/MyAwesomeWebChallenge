@@ -1,0 +1,35 @@
+<title>TSULOTT2</title>
+<link href="static/tsu_ui.css" rel="stylesheet">
+<link href="static/tsu_effect.css" rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+<body background="static/background.jpg" class="cenback">
+
+<div id="main">
+<a href="/" class="btn btn-info">Home</a>
+<a href="/ticket" class="btn btn-success">Ticket</a>
+<a href="/lott" class="btn btn-info">Lott</a>
+<a href="/market" class="btn btn-info">Market</a>
+<a href="/reset" class="btn btn-info">Reset</a>
+</div>
+
+<h2 id="intro" class="shadow">Yo! Please pick your number (0 - 50), and the money you bet on it!</h2>
+<h2 id="status" class="neon">Amount: ${{money}}</h2>
+<center>
+<div class="bg-primary">
+{% if status!=None %}
+{{status}}
+{% endif %}
+</div>
+
+<div id="main2">
+<form action="/ticket" method="POST">
+  <label for="inputlg">Number</label><input class="form-control" id="ex1" type="text" name="number"><br>
+  <br>
+  <label for="inputlg">Bet</label><input class="form-control" id="ex1" type="text" name="bet">
+  <br>
+  <button class="button button1" type="submit" style="vertical-align:middle"><span>submit </span></button>
+</form>
+</div>
+
+
+</center>

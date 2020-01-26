@@ -1,0 +1,8 @@
+version: '2'
+services:
+    web:
+        build: ./python
+        ports:
+            - "9005:9005"
+        volumes:
+            - ./src:/code
