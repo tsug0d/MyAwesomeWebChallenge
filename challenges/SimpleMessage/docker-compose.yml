@@ -6,4 +6,5 @@ services:
       - '9007:80'
     volumes:
       - ./html:/var/www/html
+      - ./htaccess/htaccess.txt:/var/www/html/assets/.htaccess
  
