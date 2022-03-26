@@ -1,0 +1,5 @@
+This challenge was released in MeePwn CTF 2017
+=======================
+[VI] https://www.youtube.com/watch?v=29z-kSZjS3I
+[VI] https://kad96.wordpress.com/2017/10/27/meepwnctf-toomanycrypto-crime/
+[JP] https://st98.github.io/diary/posts/2017-07-16-meepwn-ctf-1st-2017.html

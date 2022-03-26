@@ -1,0 +1,4 @@
+This challenge was released in TetCTF 2018
+==================
+[CN] https://fatheadrat.tk/2019/09/16/php-no-agruments/#TetCTF-2018-PHP-limit-Revenge
+[EN] https://tuanlinh.gitbook.io/ctf/tetctf-2018
